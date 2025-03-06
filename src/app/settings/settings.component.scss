@@ -1,0 +1,5 @@
+@use "mixin";
+
+:host {
+    @include mixin.page;
+}
