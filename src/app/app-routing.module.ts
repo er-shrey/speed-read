@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'settings',
     loadChildren: () => import('./settings/settings.module').then(m => m.SettingsModule)
+  },
+  {
+    path: 'read-book/:id',
+    loadChildren: () => import('./read-book/read-book.module').then(m => m.ReadBookModule)
   }
 ];
 
