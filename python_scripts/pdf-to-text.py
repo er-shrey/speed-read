@@ -22,6 +22,6 @@ def pdf_to_text(pdf_file, txt_file):
 
 # Example usage
 pdf_file = "sample.pdf"  # Path to the PDF file
-txt_file = "output.txt"  # Path to save the extracted text
+txt_file = "output.txt"  # Path to save the extracted text make the filename as the "id" of the book example: f00d3def-0bb5-40e5-9503-850a4395f52d.txt
 
 pdf_to_text(pdf_file, txt_file)

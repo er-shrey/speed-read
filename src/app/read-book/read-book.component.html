@@ -1,9 +1,9 @@
+@if (bookDetails != undefined) {
 <h2 class="title"> {{ bookDetails.name }} </h2>
 
 <div class="player">
     <div class="display">
-
-        <span class="word"> Hello </span>
+        <span class="word" [class.animate]="gettingReady"> {{currentWord}}</span>
     </div>
     
     <div class="action-panel">
@@ -24,3 +24,4 @@
         </button>
     </div>
 </div>
+}

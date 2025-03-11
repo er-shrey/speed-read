@@ -29,6 +29,21 @@
 
             font-weight: 600;
             font-size: 6rem;
+
+            .word.animate {
+                animation: zoom-in-zoom-out 1s ease infinite;
+                @keyframes zoom-in-zoom-out {
+                    0% {
+                      scale: 0%
+                    }
+                    50% {
+                      scale: 200%;
+                    }
+                    100% {
+                      scale: 0%;
+                    }
+                }
+            }
         }
 
         .action-panel {
