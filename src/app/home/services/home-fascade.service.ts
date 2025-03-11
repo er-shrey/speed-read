@@ -14,4 +14,8 @@ export class HomeFascadeService {
   getBookList(): Observable<IBookList[]> {
     return this._http.get<IBookList[]>(AVAILABLE_API.BOOK_LIST);
   }
+
+  openBook(book: IBookList): void {
+    
+  }
 }

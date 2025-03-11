@@ -18,4 +18,8 @@ export class HomeComponent implements OnInit {
       this.availableooks = list;
     })
   }
+
+  bookSelected(book: IBookList): void {
+    this._fascade.openBook(book);
+  }
 }

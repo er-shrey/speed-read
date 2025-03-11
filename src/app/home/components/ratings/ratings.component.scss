@@ -1,0 +1,20 @@
+@use "colors";
+
+:host {
+    ul {
+        display: inline-block;
+        li {
+            display: inline;
+            color: colors.$tertiary;
+            cursor: pointer;
+
+            &.rated {
+                color: colors.$warning;
+            }
+
+            span {
+                font-size: 1rem;
+            }
+        }
+    }
+}

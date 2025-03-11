@@ -1,1 +1,9 @@
-<p>ratings works!</p>
+<ul>
+    @for (i of rateStars; track $index) {
+        <li [class.rated]="i <= ratings">
+            <span class="material-symbols-outlined">
+                star
+            </span>
+        </li>
+    }
+</ul>

@@ -9,6 +9,7 @@
     border-radius: 0.5rem;
     height: 25rem;
     width: 15rem;
+    cursor: pointer;
     
 
     .thumbnail-container {
@@ -24,5 +25,31 @@
             max-height: 100%;
             max-width: 100%;
         }
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .author {
+            max-width: 10srem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 0.875rem;
+        }
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .description {
+        height: 0;
+        flex-grow: 1;
+        overflow: hidden;
+        font-size: 0.875rem;
     }
 }
