@@ -9,4 +9,6 @@
 @mixin page {
     display: flex;
     padding: 1rem;
+    height: 0;
+    flex-grow: 1;
 }

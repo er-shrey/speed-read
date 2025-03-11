@@ -1,0 +1,58 @@
+[
+    {
+        "id": "f00d3def-0bb5-40e5-9503-850a4395f52d",
+        "name": "Five point someone",
+        "thumbnail": "five-point-someone.jpg",
+        "description": "book about a college life",
+        "author": "Chetan Bhagat",
+        "ratings": 4
+    },
+    {
+        "id": "a5d9c965-4315-4d34-928a-9267b3f8ea09",
+        "name": "The Magic",
+        "thumbnail": "the-magic.jpg",
+        "description": "Learn the ideal way to approach Life",
+        "author": "Rhonda Byrne",
+        "ratings": 5
+    },
+    {
+        "id": "edba5349-e714-4fa3-8e75-51b431b53b81",
+        "name": "The Art of Being Alone",
+        "thumbnail": "art-of-living-alone.jpg",
+        "description": " If you are ready to transform your perception around loneliness and achieve your goals using your 'alone time' then read this",
+        "author": "Renuka Gavrani",
+        "ratings": 3
+    },
+    {
+        "id": "99d0476b-51f1-4439-a202-bc0c0b552c73",
+        "name": "Dopamine Detox",
+        "thumbnail": "dopamine-detox.jpg",
+        "description": "A Short Guide to Remove Distractions and Get Your Brain to Do Hard Things",
+        "author": "Thibaut Meurisse",
+        "ratings": 5
+    },
+    {
+        "id": "b81d91c4-d8af-40c5-b3f5-76e042ef1b4c",
+        "name": "Ikigai",
+        "thumbnail": "ikigai.jpg",
+        "description": "Japanese secret to long and happy life",
+        "author": "Héctor García",
+        "ratings": 4
+    },
+    {
+        "id": "33da83ae-3208-4fac-ba7b-dcea1b045a4c",
+        "name": "Don't Believe Everything You Think",
+        "thumbnail": "everything-you-think.jpg",
+        "description": "Discover how to conquer anxiety, self-doubt, and self-sabotage without depending on motivation or willpower",
+        "author": "Joseph Nguyen",
+        "ratings": 2
+    },
+    {
+        "id": "94ea06af-1a02-4d7a-bd54-c3d19c7dbf86",
+        "name": "The Power of Your Subconscious Mind",
+        "thumbnail": "power-of-subconcious-mind.jpg",
+        "description": "this book will help you unleash your mental powers",
+        "author": "Joseph Murphy",
+        "ratings": 5
+    }
+]

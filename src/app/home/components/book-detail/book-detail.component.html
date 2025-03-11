@@ -1,0 +1,7 @@
+@if (book) {
+    <div class="thumbnail-container">
+        <img [src]="'image/' + book.thumbnail" [alt]="book.thumbnail">
+    </div>
+
+    <app-ratings [ratings]="book.ratings"></app-ratings>
+}

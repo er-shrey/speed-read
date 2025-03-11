@@ -1,1 +1,9 @@
-<p>home works!</p>
+<h1> Welcome to Speed Reader app. Please choose the book</h1>
+
+<div class="search-bar">searchbar</div>
+
+<div class="book-list">
+    @for (book of availableooks; track $index) {
+        <app-book-detail [book]="book"></app-book-detail>
+    }
+</div>
